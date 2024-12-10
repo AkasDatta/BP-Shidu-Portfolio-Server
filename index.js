@@ -47,8 +47,6 @@ async function run() {
 }
 run().catch(console.dir);
 
-
-
 app.listen(port, ()=> {
     console.log(`Bistro boss is sitting on port: ${port}`);
 })
